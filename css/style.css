@@ -180,11 +180,13 @@ button:focus {
 
 .header_area .navbar {
   background: #171A1D;
+  /*background-color: transparent;*/
   opacity: 0.5;
   padding: 0px;
   border: 0px;
   border-radius: 0px;
   height:70px;
+  color: white;
 }
 
 .header_area .navbar .nav .nav-item {
@@ -194,11 +196,14 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link {
   font: 600 12px/100px "Roboto", serif;
   text-transform: uppercase;
-  color: #ffffff;
+  color: white;
   font-size: bold;
   padding: 0px;
   display: inline-block;
   font-size: 16px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
 }
 
 .header_area .navbar .nav .nav-item .nav-link:after {
@@ -549,6 +554,7 @@ button:focus {
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
   line-height: 70px;
+  /*margin-top: 0px;*/
 }
 
 .top_menu {
