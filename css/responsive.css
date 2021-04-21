@@ -40,7 +40,9 @@
         cursor: pointer;
         margin-top: 27px;
         margin-bottom: 23px;
-        color: #F1B90C;
+        color: white;
+		background-color: black;
+		margin-right: 30px;
     }
 	.header_area .navbar {
 		background: black;
@@ -63,6 +65,7 @@
 	}
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
 		line-height: 40px;
+		width: 100%;
 	}
 	.navbar-toggler span{
 		display: block;
@@ -75,8 +78,8 @@
 		cursor: pointer;
 	}
     .navbar .container{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .nav{
         padding: 0px 0px;
@@ -90,6 +93,7 @@
         display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
+
     }
     .header_area .navbar .search{
         margin-left: 0px;
@@ -102,7 +106,10 @@
 		padding: 0px 15px;
 	}
 	.header_area .navbar .nav .nav-item {
+		color: white;
 		margin-right: 0px;
+		background-color: black;
+		opacity: 1;
 	}
 	.home_banner_area .banner_inner .banner_content .banner_map_img {
 		display: none;

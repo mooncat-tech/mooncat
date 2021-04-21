@@ -181,7 +181,7 @@ button:focus {
 .header_area .navbar {
   background: #171A1D;
   /*background-color: transparent;*/
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   padding: 0px;
   border: 0px;
   border-radius: 0px;
@@ -555,6 +555,8 @@ button:focus {
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
   line-height: 70px;
   /*margin-top: 0px;*/
+  /*background-color: black;*/
+  /*opacity: 1;*/
 }
 
 .top_menu {
@@ -707,9 +709,9 @@ button:focus {
   font-size: 9rem;
   text-align: center;
    font-weight: bold;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;
+  -webkit-animation: glow 0.7s ease-in-out infinite alternate;
+  -moz-animation: glow 0.7s ease-in-out infinite alternate;
+  animation: glow 0.7s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
