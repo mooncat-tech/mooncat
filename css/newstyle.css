@@ -702,7 +702,7 @@ button:focus {
 @-webkit-keyframes glow {
      from {
       color: #fff;
-    text-shadow: 0 0 10px #e1aef5, 0 0 20px #e1aef5, 0 0 30px #e1aef5, 0 0 40px #e1aef5, 0 0 50px #e1aef5, 0 0 60px #e1aef5, 0 0 70px #e1aef5, 0 0 90px #00fff2;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
   }
   
   to {
@@ -2103,18 +2103,17 @@ button:focus {
   margin-bottom: 30px;
   color: white;
   font-weight: 700;
-  font-size: 30px;
 }
 
 .sample-text-area p {
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   color: #dfd5e3;
 }
 
 .sample-text-area p b {
   font-weight: bold;
-  color: #e1aef5;
+  color: #6247ea;
 }
 
 .sample-text-area p i {
