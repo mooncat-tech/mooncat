@@ -199,7 +199,7 @@ button:focus {
   font-size: 16px;
   background-color: transparent;
   border-radius: 5px;
-  color: white;
+  color: #c079db;
 }
 
 .header_area .navbar .nav .nav-item .nav-link:after {
@@ -341,36 +341,6 @@ button:focus {
   --top-offset: 41vh;
   --fall-duration: 9.266s;
   --fall-delay: 2.895s;
-}
-.star:nth-child(16) {
-  --star-tail-length: 6.18em;
-  --top-offset: 85.1vh;
-  --fall-duration: 10.941s;
-  --fall-delay: 1.792s;
-}
-.star:nth-child(17) {
-  --star-tail-length: 5.02em;
-  --top-offset: 89.23vh;
-  --fall-duration: 8.038s;
-  --fall-delay: 9.359s;
-}
-.star:nth-child(18) {
-  --star-tail-length: 5.74em;
-  --top-offset: 46.74vh;
-  --fall-duration: 11.722s;
-  --fall-delay: 9.528s;
-}
-.star:nth-child(19) {
-  --star-tail-length: 7.2em;
-  --top-offset: 75.36vh;
-  --fall-duration: 11.445s;
-  --fall-delay: 9.228s;
-}
-.star:nth-child(20) {
-  --star-tail-length: 6.76em;
-  --top-offset: 91.25vh;
-  --fall-duration: 8.156s;
-  --fall-delay: 7.031s;
 }
 
 .star::before, .star::after {
@@ -3648,7 +3618,7 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background: #131313;
+  background: #000000;
   opacity: 0.8;
   position: relative;
 }
@@ -3685,7 +3655,7 @@ h6 {
 
 .testimonials_area .owl-prev:before {
   content: "";
-  width: 28px;
+  /*width: 28px;*/
   background: #e8e8e8;
   position: absolute;
   left: 50%;
@@ -3709,12 +3679,13 @@ h6 {
 
 .testi_item {
   padding: 30px 0px;
+  /*width: 300px;*/
 }
 
 .testi_item .media {
   border-radius: 10px;
   padding: 40px;
-  background-color: #1F1F21;
+  background-color: #030114;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
@@ -3749,7 +3720,7 @@ h6 {
 .testi_item:hover .media {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(157, 157, 157, 0.2);
   box-shadow: 0px 10px 30px 0px rgba(157, 157, 157, 0.2);
-  background: #fff;
+  background-color: #c079db;
   border-color: #fff;
 }
 
@@ -3772,7 +3743,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: #222222;
+  background: #101010;
 }
 
 .single-footer-widget p {
